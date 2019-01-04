@@ -1,0 +1,1 @@
+Для решения и сдачи задания по курсу https://stepik.org/course/154/syllabus

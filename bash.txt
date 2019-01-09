@@ -1,0 +1,7 @@
+git clone https://github.com/SantAleks/stepic_web_project.git /home/box/web
+django-admin startproject ask
+./manage.py startapp qa
+
+git add .
+git status
+git commit -m "Added HTML header"

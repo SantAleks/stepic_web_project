@@ -34,9 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'qa',
+    'autofixture',
+    'debug_toolbar',
 ]
-#    'autofixture',
-#    'debug_toolbar',
 
 MIDDLEWARE_CLASSES = [
     'django.contrib.sessions.middleware.SessionMiddleware',

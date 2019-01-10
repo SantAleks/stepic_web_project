@@ -5,3 +5,8 @@ django-admin startproject ask
 git add .
 git status
 git commit -m "Added HTML header"
+
+manage.py makemigrations
+manage.py migrate
+
+curl

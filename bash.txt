@@ -8,5 +8,11 @@ git commit -m "Added HTML header"
 
 manage.py makemigrations
 manage.py migrate
-
+sudo pip3 install pytz
+sudo pip3 install --upgrade django_autofixture
 curl
+
+virtualenv env -p `which python3`
+source env/bin/activate
+pip3 install -r requirements.txt
+/usr/local/bin/gunicorn
